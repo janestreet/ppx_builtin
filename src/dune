@@ -1,0 +1,7 @@
+(library
+ (name ppx_builtin)
+ (public_name ppx_builtin)
+ (kind ppx_rewriter)
+ (libraries ocaml-compiler-libs.common ppxlib ppxlib_jane)
+ (ppx_runtime_libraries)
+ (preprocess no_preprocessing))
